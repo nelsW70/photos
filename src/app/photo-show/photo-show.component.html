@@ -2,4 +2,4 @@
   <button (click)="onClick()">fetch new image</button>
 </div>
 
-<img [src]="photoUrl" alt="random things" />
+<img *ngIf="photoUrl" [src]="photoUrl" alt="random things" />
